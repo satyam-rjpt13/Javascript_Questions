@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-top: 10vh;
+    height: 90vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: #333333;
+    border-radius: 50%;
+    position: relative;   
+    transition: all 1s linear;
+}
+.trg-btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top:10px ;
+    margin-left: 45%;
+    transition: 0.3s ease;
+}
+.trg-btn:hover{
+    background-color: #222222;
+    color: antiquewhite;
+}
