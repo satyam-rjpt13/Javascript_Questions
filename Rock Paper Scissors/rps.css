@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg,yellow,red);
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.players{
+    display: flex;
+    gap: 40px;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.tblue{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.tred{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.result{
+    margin: 20px;
+    font-size: 20px;
+}
+.winner{
+    font-size: 30px;
+    font-weight: 700;
+}
+label{
+    cursor: pointer;
+}
+button{
+    border-radius: 12px;
+    height: 25px;
+    width: 150px;
+    border: none; 
+}
+button:hover{
+    background-color: #ffd6d6;
+}

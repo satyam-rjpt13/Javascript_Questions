@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Round <span class="Counter">1</span></h2>
+        <div class="players">
+            <div class="tblue">
+                <p>Choose one of the option</p>
+                <form action="/submit" method="post">
+                    <label>
+                        <input type="radio" id="b-stone" name="gameBlue" value="stone">
+                        Stone
+                    </label>
+                    <label>
+                        <input type="radio" id="b-paper" name="gameBlue" value="paper">
+                        Paper
+                    </label>
+                    <label>
+                        <input type="radio" id="b-sciccor" name="gameBlue" value="scissors">
+                        Scissors
+                    </label>
+                    <br><br>
+                    <button type="submit" id="blue-submit" >Submit</button>
+                </form>
+
+            </div>
+            <div class="tred">
+                <p>Choose one of the option</p>
+                <form action="/submit" method="post">
+                    <label>
+                        <input type="radio" id="r-stone" name="gameRed" value="stone">
+                        Stone
+                    </label>
+                    <label>
+                        <input type="radio" id="r-paper" name="gameRed" value="paper">
+                        Paper
+                    </label>
+                    <label>
+                        <input type="radio" id="r-sciccor" name="gameRed" value="scissors">
+                        Scissors
+                    </label>
+                    <br><br>
+                    <button type="submit" id="red-submit" >Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="result">Team red won this round!</div>
+        <div class="winner">Team blue winner</div>
+    </div>
+</body>
+</html>

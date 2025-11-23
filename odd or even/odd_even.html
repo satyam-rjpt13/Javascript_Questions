@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Or Even game</title>
+    <link rel="stylesheet" href="odd_even.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Round <span id="counter">1</span></h2>
+        <p>Choose a number between 1-10</p>
+        <div class="players">
+            <div class="red">
+                <input type="number" id="r-num" min="1" max="10" required>
+                <p>Red score: <span id="r-score">0</span></p>
+            </div>
+            <div class="blue">
+                <input type="number" id="b-num" min="1" max="10" required>
+                <p>Blue score: <span id="b-score">0</span></p>
+            </div>
+        </div>
+        <button id="check">CHECK</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="odd_even.js"></script>
+</body>
+</html>
