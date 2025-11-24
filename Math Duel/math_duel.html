@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Duel Game</title>
+    <link rel="stylesheet" href="math_duel.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Math Duel</h2>
+        <h3>Round <span id="counter">1</span></h3>
+        <div class="question">
+            <span id="num1">2</span>
+            <span id="optr">*</span>
+            <span id="num2">3</span>
+        </div>
+        <div class="players">
+            <div class="player1">
+                <p>Player 1</p>
+                <input type="text" id="p1" required>
+                <p id="line"> score: <span id="p1score">0</span></p>
+            </div>
+            <div class="player2">
+                <p>Player 2</p>
+                <input type="text" id="p2" required>
+                <p id="line"> score: <span id="p2score">0</span></p>
+            </div>
+        </div>
+        <button id="submit">SUBMIT</button>
+        <div id="result"></div>
+    </div>
+    <script src="math_duel.js"></script>
+</body>
+</html>
