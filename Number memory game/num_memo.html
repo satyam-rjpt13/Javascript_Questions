@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number memory game</title>
+    <link rel="stylesheet" href="num_memo.css">
 </head>
 <body>
     <div class="container">
-        <h2>Number Memory Game</h2>
-        <p>You Need to to remember the number <br>and write it after the timeOut</p>
-        <h2> Timer <span id="timer">3</span></h2>
+        <h2 id="heading">Number Memory Game</h2>
+        <p id="para">*You Need to remember the <b>Number</b> and<br> write it after the <b>timeOut</b></p>
+        <h3 id="num-line">Your Number is: <span id="number">333</span></h3>
+        <h2><span id="timer">3</span></h2>
         <input type="text" id="input">
         <button id="check">Check</button>
         <div id="result"></div>
