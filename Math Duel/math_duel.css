@@ -20,10 +20,10 @@ body{
     border-radius: 10px;
 }
 .container h2{
-    font-size: 30px;
+    font-size: 45px;
 }
 .container h3{
-    font-size: 25px;
+    font-size: 30px;
 }
 .question{
     font-size: 35px;
@@ -34,11 +34,12 @@ body{
     gap: 20px;
 }
 .players input{
-    height: 50px;
+    height: 55px;
     width: 120px;
     margin: 5px;
     font-size: 25px;
     padding-left: 10px;
+    border-radius: 4px;
 }
 #p1{
     background-color: red;
