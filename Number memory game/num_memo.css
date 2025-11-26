@@ -52,3 +52,7 @@ button{
 button:hover{
     background-color: #e6771d;
 }
+#result{
+    font-size: 25px;
+    font-weight: 600;
+}
