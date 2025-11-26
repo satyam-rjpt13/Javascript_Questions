@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: #000;
+    display:flex;
+    align-items: center;
+    justify-self: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    gap: 20px;
+    background-color: #fff;
+    border-radius:10px;
+}
+h2{
+    font-size: 30px;
+}
+.data-line{
+    display: flex;
+    gap: 10px;
+}
+.data-line input{
+    height: 20px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.data-line button{
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 80px;
+}
+
+#input{
+    height: 20px;
+    margin-right:10px;
+    padding-left: 10px;
+}
+#search{
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+.data-table{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+}
+thead{
+    background-color: #eee;
+}
+thead tr th{
+    padding: 3px 50px;
+}
