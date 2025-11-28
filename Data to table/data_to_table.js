@@ -4,8 +4,6 @@ const tbody = document.querySelector('table tbody');
 
 addRow.addEventListener('click',()=>{
 
-    
-
     // fatching name/ getting inputs
     let name = document.getElementById('name').value;
     let ageInpt = document.getElementById('age').value;
@@ -45,5 +43,16 @@ addRow.addEventListener('click',()=>{
 })
 
 searchBtn.addEventListener('click',()=>{
+    let searchValue = document.getElementById('input').value.toLowerCase();
+    let rows = tbody.querySelectorAll('tr');
 
+    rows.forEach(row => {
+        let name = row.cells[0].innerText.toLowerCase();
+
+        if(name.includes(searchValue)){
+            row.style.display = "";
+        } else {
+            row.style.display = "none";
+        }
+    });
 })

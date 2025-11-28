@@ -64,3 +64,6 @@ thead{
 thead tr th{
     padding: 3px 50px;
 }
+tbody tr td{
+    padding-left: 10px;
+}
