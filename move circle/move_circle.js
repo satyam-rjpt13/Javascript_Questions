@@ -5,11 +5,11 @@ let moved = false;
 
 button.addEventListener('click' , ()=>{
     if(!moved){
-        circle.style.transform = "translateX(500px)";
+        circle.style.transform = "translatey(240px)";
         moved= true;
     }
     else{
-        circle.style.transform = "translateX(0px)";
+        circle.style.transform = "translatey(0px)";
         moved = false;
     }
 });

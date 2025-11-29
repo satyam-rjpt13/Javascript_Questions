@@ -2,10 +2,15 @@
     padding: 0;
     margin: 0;
 }
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
-    margin-top: 10vh;
-    height: 90vh;
-    width: 100%;
+    height: 80vh;
+    width: 70%;
     border: 1px solid black;
     display: flex;
     align-items: center;
@@ -22,10 +27,9 @@
 .trg-btn{
     height: 40px;
     width: 150px;
+    margin-bottom: 40%;
     border-radius: 10px;
     border: 1px solid;
-    margin-top:10px ;
-    margin-left: 45%;
     transition: 0.3s ease;
 }
 .trg-btn:hover{
